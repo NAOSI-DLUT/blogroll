@@ -1,7 +1,7 @@
 ---
 title: Lentinel
-link: https://lentinel.icu/
+link: https://lentinel.link/
 description: 把光芒洒向更开阔的地方
-rss: https://lentinel.icu/rss.xml
-avatar: https://lentinel.icu/upload/avatar.jpg
+rss: https://lentinel.link/rss.xml
+avatar: https://lentinel.link/upload/avatar.jpg
 ---
