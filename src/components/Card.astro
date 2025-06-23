@@ -1,24 +1,34 @@
 ---
 interface Props {
-  title: string;
-  link?: string;
-  description?: string;
-  image?: string;
+  blog: {
+    title: string;
+    link?: string;
+    description?: string;
+    avatar?: string;
+    rss?: string;
+  };
 }
 
-const { title, link, description, image } = Astro.props;
+const { blog } = Astro.props;
 ---
 
 <div class="block rounded bg-gray-100 p-4 hover:shadow-md transition-shadow">
   <div class="flex">
     {
-      image && (
-        <img class="w-12 h-12 rounded-full mr-4" src={image} alt={title} />
+      blog.avatar && (
+        <img
+          class="w-12 h-12 rounded-full mr-4"
+          src={blog.avatar}
+          alt={blog.title}
+        />
       )
     }
     <div>
-      <div><a class="font-bold no-underline" href={link}>{title}</a></div>
-      <div class="text-sm">{description}</div>
+      <div class="inline-flex items-center gap-x-2 flex-wrap">
+        <a class="font-bold no-underline" href={blog.link}>{blog.title}</a>
+        {blog.rss && <a class="i-ri-rss-line" href={blog.rss} />}
+      </div>
+      <div class="text-sm">{blog.description}</div>
     </div>
   </div>
   <slot />

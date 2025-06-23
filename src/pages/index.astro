@@ -28,19 +28,8 @@ const blogroll = await getCollection("blogroll");
           const { Content } = await blog.render();
           return (
             <div class="not-first:my-4 break-inside-avoid">
-              <Card
-                title={blog.data.title}
-                description={blog.data.description}
-                link={blog.data.link}
-                image={blog.data.avatar}
-              >
+              <Card blog={blog.data}>
                 <div class="text-sm">
-                  <p>
-                    <span>👉</span>
-                    <a href={blog.data.link}>主页</a>
-                    {blog.data.rss && <a href={blog.data.rss}>RSS</a>}
-                    {blog.data.avatar && <a href={blog.data.avatar}>头像</a>}
-                  </p>
                   <Content />
                 </div>
               </Card>
