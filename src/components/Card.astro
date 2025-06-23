@@ -25,8 +25,14 @@ const { blog } = Astro.props;
     }
     <div>
       <div class="inline-flex items-center gap-x-2 flex-wrap">
-        <a class="font-bold no-underline" href={blog.link}>{blog.title}</a>
-        {blog.rss && <a class="i-ri-rss-line" href={blog.rss} />}
+        <a class="font-bold no-underline" href={blog.link} target="_blank">
+          {blog.title}
+        </a>
+        {
+          blog.rss && (
+            <a class="i-ri-rss-line" href={blog.rss} target="_blank" />
+          )
+        }
       </div>
       <div class="text-sm">{blog.description}</div>
     </div>
