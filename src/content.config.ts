@@ -9,6 +9,7 @@ export const collections = {
       description: z.string().optional(),
       rss: z.string().url().optional(),
       avatar: z.string().url().optional(),
+      error: z.boolean().optional(),
     }),
   }),
 };

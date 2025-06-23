@@ -6,6 +6,7 @@ interface Props {
     description?: string;
     avatar?: string;
     rss?: string;
+    error?: string;
   };
 }
 
@@ -24,13 +25,18 @@ const { blog } = Astro.props;
       )
     }
     <div>
-      <div class="inline-flex items-center gap-x-2 flex-wrap">
-        <a class="font-bold no-underline" href={blog.link} target="_blank">
+      <div class="inline-flex items-center gap-x-1 flex-wrap">
+        <a class="font-bold no-underline mr-1" href={blog.link} target="_blank">
           {blog.title}
         </a>
         {
           blog.rss && (
             <a class="i-ri-rss-line" href={blog.rss} target="_blank" />
+          )
+        }
+        {
+          blog.error && (
+            <i class="i-ri-error-warning-line" title="网站好像失联了⊙﹏⊙∥" />
           )
         }
       </div>
