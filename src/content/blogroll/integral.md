@@ -1,7 +1,7 @@
 ---
 title: Integral
-link: https://integral.org.cn/
-description: Free Software Enthusiast | Arch Linux User | [@archlinuxcn](https://github.com/archlinuxcn) Maintainer
+link: https://blog.i7.homes/
+description: Free Software Enthusiast, Arch Linux user & @archlinuxcn maintainer
 # rss:
-# avatar:
+avatar: https://github.com/Integral-Tech.png
 ---

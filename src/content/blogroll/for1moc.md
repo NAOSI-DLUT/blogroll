@@ -1,7 +1,7 @@
 ---
 title: For1moc
-link: http://forimoc.me/
-description: fdu/cs/secsys
+link: https://for1moc.xlog.app/
+description: 签到型CTFer
 # rss:
-# avatar:
+avatar: https://github.com/FORIMOC.png
 ---
