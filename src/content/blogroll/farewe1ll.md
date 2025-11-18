@@ -3,5 +3,5 @@ title: Farewe1ll's Blog
 link: https://blog.farewe1ll.top/
 description: 拨雪寻春，烧灯续昼。
 rss: https://farewe1ll.github.io/rss.xml
-avatar: https://cn.gravatar.com/avatar/16c96eb8bd6cc836180feb96467f570a?size=256
+avatar: https://r2.farewe1ll.top/2025/11/Farewe1ll_40e5856bc2a6bba7731f6c3616942695.png
 ---
