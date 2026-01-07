@@ -1,6 +1,6 @@
 ---
 title: chaojixinren
-link: http://www.chaojixinren.online/
+link: http://www.chaojixin.ren/
 description: 莫听穿林打叶声，何妨吟啸且徐行
-avatar: http://www.chaojixinren.online/wp-content/uploads/2025/12/1765973793-avatar.jpg
+avatar: https://raw.githubusercontent.com/chaojixinren/chaojixinren/refs/heads/main/touxiang.jpg
 ---
