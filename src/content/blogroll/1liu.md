@@ -1,7 +1,7 @@
 ---
 title: 1Liu
-link: https://www.ac1liu.tech
+link: https://ac1liu.com
 description: 嗯？
-# rss:
-avatar: https://blog.ac1liu.tech/img/avatar.png
+rss: https://blog.ac1liu.com/atom.xml
+avatar: https://blog.ac1liu.com/img/avatar.png
 ---
