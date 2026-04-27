@@ -1,6 +1,6 @@
 ---
 title: cccxyx
-link: http://www.cccxyx.com/
+link: https://www.cccxyx.com/
 description: 何意味？
-avatar: http://www.cccxyx.com/avatar.jpg
+avatar: https://www.cccxyx.com/avatar.jpg
 ---
